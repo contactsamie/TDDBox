@@ -1,0 +1,25 @@
+type project
+title
+    TDDBox
+owners
+    samuel
+authors 
+    samuel
+projectUrl
+    github.com/testdrivendevelopment/tddbox/tdd/tddbox
+iconUrl
+    https://raw.githubusercontent.com/tdd/tddbox/master/docs/files/img/logo.png
+licenseUrl
+    github.com/testdrivendevelopment/tddbox/tdd/tddbox/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    tdd testing unittesting
+summary
+    TDD Box
+description
+    Learning TDD using the TDD Box
+
+

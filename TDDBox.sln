@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TDDBox", "src\TDDBox\TDDBox.fsproj", "{579E7891-719B-49D2-8C68-A8CDCEA255E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
+	ProjectSection(SolutionItems) = preProject
+		arduino_tdd_box\arduino_tdd_box.ino = arduino_tdd_box\arduino_tdd_box.ino
+		build.fsx = build.fsx
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{83F16175-43B1-4C90-A1EE-8E351C33435D}"
+	ProjectSection(SolutionItems) = preProject
+		docsrc\tools\generate.fsx = docsrc\tools\generate.fsx
+		docsrc\tools\templates\template.cshtml = docsrc\tools\templates\template.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{8E6D5255-776D-4B61-85F9-73C37AA1FB9A}"
+	ProjectSection(SolutionItems) = preProject
+		docsrc\content\index.fsx = docsrc\content\index.fsx
+		docsrc\content\tutorial.fsx = docsrc\content\tutorial.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TDDBox.Tests", "tests\TDDBox.Tests\TDDBox.Tests.fsproj", "{68B59513-1B9A-4610-86C5-C6F4EC92D8B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD Demo", "TDD Demo\TDD Demo.csproj", "{AC48DB00-10C4-4819-BB74-0A2BC067A596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUI", "WinUI\WinUI.csproj", "{78E40295-F423-49AC-B8AB-7E3C977CF51F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TDDBox.Hardware", "TDDBox.Hardware\TDDBox.Hardware.fsproj", "{98409854-04F5-4DDC-ACED-CE9A51C98310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{579E7891-719B-49D2-8C68-A8CDCEA255E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579E7891-719B-49D2-8C68-A8CDCEA255E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579E7891-719B-49D2-8C68-A8CDCEA255E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579E7891-719B-49D2-8C68-A8CDCEA255E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B59513-1B9A-4610-86C5-C6F4EC92D8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B59513-1B9A-4610-86C5-C6F4EC92D8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B59513-1B9A-4610-86C5-C6F4EC92D8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B59513-1B9A-4610-86C5-C6F4EC92D8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC48DB00-10C4-4819-BB74-0A2BC067A596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC48DB00-10C4-4819-BB74-0A2BC067A596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC48DB00-10C4-4819-BB74-0A2BC067A596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC48DB00-10C4-4819-BB74-0A2BC067A596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E40295-F423-49AC-B8AB-7E3C977CF51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E40295-F423-49AC-B8AB-7E3C977CF51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E40295-F423-49AC-B8AB-7E3C977CF51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E40295-F423-49AC-B8AB-7E3C977CF51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98409854-04F5-4DDC-ACED-CE9A51C98310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98409854-04F5-4DDC-ACED-CE9A51C98310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98409854-04F5-4DDC-ACED-CE9A51C98310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98409854-04F5-4DDC-ACED-CE9A51C98310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83F16175-43B1-4C90-A1EE-8E351C33435D} = {A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}
+		{8E6D5255-776D-4B61-85F9-73C37AA1FB9A} = {A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}
+		{68B59513-1B9A-4610-86C5-C6F4EC92D8B3} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+	EndGlobalSection
+EndGlobal
